@@ -1,4 +1,7 @@
-"""第 10 章：代码生成目标、性能分析和 C++ standalone 入口。"""
+"""第 10 章：代码生成目标、性能分析和 C++ standalone 入口。
+
+完整讲解见 tutorials/10_codegen_performance.md。
+"""
 
 from pathlib import Path
 import shutil

@@ -1,4 +1,7 @@
-"""第 8 章：SpatialNeuron 多区室电缆模型。"""
+"""第 8 章：SpatialNeuron 多区室电缆模型。
+
+完整讲解见 tutorials/08_spatial_neuron.md。
+"""
 
 from pathlib import Path
 import sys

@@ -1,4 +1,7 @@
-"""第 6 章：事件驱动突触变量和经典成对 STDP。"""
+"""第 6 章：事件驱动突触变量和经典成对 STDP。
+
+完整讲解见 tutorials/06_stdp.md。
+"""
 
 from pathlib import Path
 import sys

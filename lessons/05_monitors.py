@@ -1,4 +1,7 @@
-"""第 5 章：状态、脉冲、脉冲时刻状态和群体放电率记录。"""
+"""第 5 章：状态、脉冲、脉冲时刻状态和群体放电率记录。
+
+完整讲解见 tutorials/05_monitors.md。
+"""
 
 from pathlib import Path
 import sys

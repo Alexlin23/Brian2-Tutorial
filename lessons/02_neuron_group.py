@@ -1,4 +1,7 @@
-"""第 2 章：神经元群体、噪声、异质参数和子组。"""
+"""第 2 章：神经元群体、噪声、异质参数和子组。
+
+完整讲解见 tutorials/02_neuron_group.md。
+"""
 
 from pathlib import Path
 import sys

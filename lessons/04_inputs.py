@@ -1,4 +1,7 @@
-"""第 4 章：PoissonGroup、PoissonInput、SpikeGeneratorGroup 和 TimedArray。"""
+"""第 4 章：PoissonGroup、PoissonInput、SpikeGeneratorGroup 和 TimedArray。
+
+完整讲解见 tutorials/04_inputs.md。
+"""
 
 from pathlib import Path
 import sys

@@ -1,4 +1,7 @@
-"""第 1 章：单位、微分方程、阈值、重置和记录。"""
+"""第 1 章：单位、微分方程、阈值、重置和记录。
+
+完整讲解见 tutorials/01_first_neuron.md。
+"""
 
 from pathlib import Path
 import sys

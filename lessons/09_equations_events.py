@@ -1,4 +1,7 @@
-"""第 9 章：Equations、子表达式、命名空间和自定义事件。"""
+"""第 9 章：Equations、子表达式、命名空间和自定义事件。
+
+完整讲解见 tutorials/09_equations_events.md。
+"""
 
 from pathlib import Path
 import sys

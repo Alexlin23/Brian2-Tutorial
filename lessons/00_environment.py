@@ -1,4 +1,7 @@
-"""第 0 章：认识当前 Brian2 运行环境。"""
+"""第 0 章：认识当前 Brian2 运行环境。
+
+完整讲解见 tutorials/00_environment.md。
+"""
 
 import platform
 import shutil
@@ -19,4 +22,4 @@ print("当前设备:", type(get_device()).__name__)
 # NumPy 最容易直接运行；Cython/C++ 通常更快，但需要编译器。
 print("默认代码生成目标:", prefs.codegen.target)
 print("C++ 编译器:", shutil.which("cl") or shutil.which("g++") or "未发现")
-print("\n没有 C++ 编译器也能使用 NumPy 目标学习前九章。")
+print("\n没有 C++ 编译器也能使用 NumPy 目标运行本教程全部默认示例。")

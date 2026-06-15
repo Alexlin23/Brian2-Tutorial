@@ -1,4 +1,7 @@
-"""第 3 章：突触变量、连接索引、突触事件和延迟。"""
+"""第 3 章：突触变量、连接索引、突触事件和延迟。
+
+完整讲解见 tutorials/03_synapses.md。
+"""
 
 from pathlib import Path
 import sys

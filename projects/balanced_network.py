@@ -1,4 +1,7 @@
-"""综合项目：带外部输入的兴奋/抑制平衡网络。"""
+"""综合项目：带外部输入的兴奋/抑制平衡网络。
+
+完整讲解见 tutorials/project_balanced_network.md。
+"""
 
 from pathlib import Path
 import sys

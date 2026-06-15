@@ -1,4 +1,7 @@
-"""第 7 章：显式 Network、调度、run_regularly、store 和 restore。"""
+"""第 7 章：显式 Network、调度、run_regularly、store 和 restore。
+
+完整讲解见 tutorials/07_network_control.md。
+"""
 
 from pathlib import Path
 import sys
@@ -42,9 +45,9 @@ network.store("initial")
 network.run(50 * ms, profile=True)
 first_count = spikes.num_spikes
 
-# restore() 回到完全相同的起点，再只改变 drive。
-# 因而两次脉冲数差异主要来自驱动力，而不是不同初始状态。
-network.restore("initial")
+# restore() 默认不会恢复随机数生成器状态。这里显式设为 True，
+# 让两次运行使用相同的随机扰动序列，从而只比较 drive 的影响。
+network.restore("initial", restore_random_state=True)
 neurons.drive = 1.25
 network.run(50 * ms, profile=True)
 second_count = spikes.num_spikes
